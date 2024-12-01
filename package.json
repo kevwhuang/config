@@ -1,0 +1,27 @@
+{
+    "name": "@aephonics/config",
+    "version": "24.12.1",
+    "description": "Web development configuration files.",
+    "keywords": [
+        "eslint"
+    ],
+    "license": "MIT",
+    "author": "Kevin Huang",
+    "main": "index.mjs",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kevwhuang/config.git"
+    },
+    "dependencies": {
+        "@stylistic/eslint-plugin": "latest",
+        "eslint": "latest",
+        "eslint-plugin-astro": "latest",
+        "eslint-plugin-jsx-a11y": "latest",
+        "eslint-plugin-react-hooks": "latest",
+        "typescript-eslint": "latest"
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "npm": "latest"
+    }
+}
