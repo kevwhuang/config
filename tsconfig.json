@@ -1,6 +1,5 @@
 {
     "compilerOptions": {
-        "declarationDir": null,
         "allowArbitraryExtensions": true,
         "allowImportingTsExtensions": true,
         "allowJs": true,

@@ -1,17 +1,19 @@
 import { eslint } from '@aephonics/config';
 
+const ignores = [
+    '',
+];
+
+const globals = [
+    '',
+];
+
 const overrides = [
     {
         files: ['**/*.mjs'],
-        languageOptions: {
-            globals: {},
-        },
+        languageOptions: { globals: Object.fromEntries(globals.map(e => [e, true])) },
         rules: {},
     },
-];
-
-const ignores = [
-    '',
 ];
 
 eslint.push(...overrides);
