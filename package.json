@@ -1,6 +1,6 @@
 {
     "name": "@aephonics/config",
-    "version": "25.5.23",
+    "version": "25.8.12",
     "description": "Web development configs.",
     "license": "MIT",
     "author": "Kevin Huang",
@@ -10,7 +10,7 @@
         "url": "git+https://github.com/kevwhuang/config.git"
     },
     "scripts": {
-        "lint": "bun tsc & bun eslint"
+        "lint": "bun tsc && bun eslint"
     },
     "dependencies": {
         "@stylistic/eslint-plugin": "latest",
