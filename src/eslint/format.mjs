@@ -34,7 +34,6 @@ const rules = {
     'jsx-newline': [2, { allowMultilines: true, prevent: true }],
     'jsx-one-expression-per-line': [2, { allow: 'non-jsx' }],
     'jsx-pascal-case': [2, { allowAllCaps: true }],
-    'jsx-props-no-multi-spaces': 2,
     'jsx-quotes': 2,
     'jsx-self-closing-comp': 0,
     'jsx-sort-props': [2, { callbacksLast: true, reservedFirst: true }],
