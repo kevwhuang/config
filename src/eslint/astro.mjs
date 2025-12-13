@@ -13,6 +13,7 @@ const rules = {
     'no-exports-from-components': 2,
     'no-set-html-directive': 2,
     'no-set-text-directive': 2,
+    'no-unsafe-inline-scripts': 2,
     'no-unused-css-selector': 0,
     'no-unused-define-vars-in-style': 2,
     'prefer-class-list-directive': 2,

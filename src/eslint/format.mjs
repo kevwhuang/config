@@ -13,6 +13,7 @@ const rules = {
     'curly-newline': 2,
     'dot-location': [2, 'property'],
     'eol-last': 2,
+    'exp-list-style': 2,
     'function-call-argument-newline': [2, 'consistent'],
     'function-call-spacing': 2,
     'function-paren-newline': [2, 'consistent'],

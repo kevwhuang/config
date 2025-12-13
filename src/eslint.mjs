@@ -18,7 +18,6 @@ const eslint = [
     ...pluginAstro.configs.base,
     {
         files: ['**/*.{js,mjs,ts,tsx}'],
-        ignores: null,
         languageOptions: {
             ecmaVersion: 'latest',
             globals: {

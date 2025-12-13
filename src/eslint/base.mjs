@@ -182,6 +182,7 @@ const rules = {
     'prefer-rest-params': 2,
     'prefer-spread': 2,
     'prefer-template': 2,
+    'preserve-caught-error': 2,
     'radix': 2,
     'require-atomic-updates': 2,
     'require-await': 2,

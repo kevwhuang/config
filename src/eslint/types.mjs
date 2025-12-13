@@ -84,6 +84,7 @@ const rules = {
     'no-unsafe-type-assertion': 0,
     'no-unsafe-unary-minus': 2,
     'no-unused-expressions': 2,
+    'no-unused-private-class-members': 2,
     'no-unused-vars': 2,
     'no-use-before-define': [2, { functions: false }],
     'no-useless-constructor': 2,
