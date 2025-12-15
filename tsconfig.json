@@ -17,7 +17,6 @@
         "disableSourceOfProjectReferenceRedirect": false,
         "esModuleInterop": true,
         "exactOptionalPropertyTypes": true,
-        "experimentalDecorators": true,
         "explainFiles": false,
         "extendedDiagnostics": false,
         "forceConsistentCasingInFileNames": true,
@@ -29,8 +28,7 @@
             "dom",
             "dom.iterable",
             "esnext",
-            "scripthost",
-            "webworker"
+            "webworker",
         ],
         "listEmittedFiles": false,
         "listFiles": false,
@@ -62,9 +60,6 @@
         "suppressImplicitAnyIndexErrors": false,
         "target": "esnext",
         "traceResolution": false,
-        "types": [
-            "bun-types"
-        ],
         "useDefineForClassFields": true,
         "verbatimModuleSyntax": true,
     }

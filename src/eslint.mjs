@@ -28,7 +28,6 @@ const eslint = [
             parser: tslint.parser,
             parserOptions: {
                 projectService: true,
-                tsconfigRootDir: import.meta.dirname,
             },
             sourceType: 'module',
         },

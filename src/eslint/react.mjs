@@ -88,7 +88,7 @@ const rules = {
     'prefer-read-only-props': 2,
     'prefer-stateless-function': 2,
     'prop-types': 2,
-    'react-in-jsx-scope': 2,
+    'react-in-jsx-scope': 0,
     'require-default-props': 2,
     'require-optimization': 2,
     'require-render-return': 2,

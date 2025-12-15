@@ -16,6 +16,16 @@
     "devDependencies": {
         "@aephonics/config": "latest"
     },
+    "exports": {
+        ".": "./index.mjs"
+    },
+    "files": [
+        "LICENSE",
+        "README.md",
+        "index.d.ts",
+        "index.mjs",
+        "src/"
+    ],
     "license": "MIT",
     "main": "index.mjs",
     "name": "@aephonics/config",
@@ -26,5 +36,6 @@
     "scripts": {
         "lint": "bun tsc && bun eslint"
     },
-    "version": "25.12.13-1"
+    "type": "module",
+    "version": "25.12.14"
 }
